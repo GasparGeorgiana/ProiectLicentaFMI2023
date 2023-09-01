@@ -9,6 +9,7 @@
 
         public NotFoundErrorException(string message, Exception innerException) : base(message, innerException)
         {
+
         }
 
         public NotFoundErrorException()
