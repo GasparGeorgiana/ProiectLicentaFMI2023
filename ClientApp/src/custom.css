@@ -1,0 +1,264 @@
+
+.map-container {
+  height: 400px;
+}
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: #69779b;
+  /*background: url("../../logo/login_background.jpg");*/
+  color: white;
+}
+.modal {
+  width: 250px;
+  height: 170px;
+  background: white;
+  color: white;
+  z-index: 10;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modalHeader {
+  height: 50px;
+  background: white;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.heading {
+  margin: 0;
+  padding: 10px;
+  color: #acdbdf;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.modalContent {
+  padding: 10px;
+  font-size: 14px;
+  color: #acdbdf;
+  text-align: center;
+}
+
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+.navbar-nav {
+  background: #acdbdf;
+}
+/*.navbar {
+  background: url("../../logo/login_background.jpg");
+}*/
+
+.btn-primary {
+  color: #1861ac;
+  background-color: #fff;
+  border-color: #1861ac;
+  border-radius: 50px;
+}
+
+.btn-secondary {
+  color: #1861ac;
+  background-color: #fff;
+  border-color: #1861ac;
+  border-radius: 50px;
+}
+
+.btn-secondary:hover {
+  background-color: mediumvioletred; /* Green */
+  color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #f0ece2;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f0ece2;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.nav-item {
+  border: none;
+  color: #010101;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: #010101;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.nav-item:hover {
+  /*    border: 0.1px solid white;
+*/ opacity: 0.5;
+}
+
+.form-group {
+  padding: 8px;
+  width: 100%;
+  margin-left: 105%
+}
+
+.buttonHolder {
+  padding: 8px;
+  width: 100%;
+  margin-left: 105%;
+  text-align: center;
+}
+
+.row {
+  color: white;
+  margin-left: 12.5%;
+  width: 75%;
+  border-radius: 75px;
+}
+
+.row2 {
+  margin-left: 12.5%;
+  width: 75%;
+  border-radius: 75px;
+}
+
+.row1 {
+  color: white;
+  margin-left: 34%;
+  width: 75%;
+}
+
+.as {
+  color: white;
+}
+
+.table {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.js-select2 {
+  color: black;
+}
+
+.form-control {
+  color: black;
+}
+
+.text-danger {
+  color: black;
+}
+
+
+.select2-container {
+  color: black;
+}
+
+.select2-container--default {
+  color: black;
+}
+
+.select2-searh__field {
+  visibility: hidden
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
