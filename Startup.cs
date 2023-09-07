@@ -40,7 +40,7 @@ namespace ProiectLicentaFMI;
                     ValidateIssuerSigningKey = true,
                     ValidateAudience = false,
                     ValidateIssuer = false,
-                    IssuerSigningKey = new SymmetricSecurityKey("proiect licenta fmi"u8.ToArray())
+                    IssuerSigningKey = new SymmetricSecurityKey("proiect licenta ase"u8.ToArray())
                 };
             });
             var mapperConfig = new MapperConfiguration(mc =>
